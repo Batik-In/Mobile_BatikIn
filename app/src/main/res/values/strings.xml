@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">BatikIn</string>
+    <string name="batikku">BatikIN</string>
+
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="message_welcome_page">Please login, if dont have an account register first</string>
+    <string name="title_signup_page">Register account</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="title_login_page">Please login</string>
+    <string name="name">Name</string>
+    <string name="batik_title">Batik Title</string>
+    <string name="batik_subtitle">Jakarta, indonesia</string>
+    <string name="copyright" translatable="false">© 2023 BatikIN App</string>
+    <string name="logout">Logout</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="invalid_email">Email not valid</string>
+    <string name="invalid_password">Password min 8 character</string>
+    <string name="empty_name">Enter name</string>
+    <string name="empty_email">Enter email</string>
+    <string name="empty_password">Enter password</string>
+    <string name="empty_image">Enter image</string>
+    <string name="not_permission">Dont have permission</string>
+    <string name="user_name">User name</string>
+    <string name="desc">Description</string>
+    <string name="created_at">Created at</string>
+    <string name="failed_capture">Failed capture image</string>
+    <string name="failed_open_camera">Failed open camera</string>
+    <string name="empty_desc">Enter description</string>
+    <string name="dont_have_account">Dont have an account? Register</string>
+    <string name="have_account">Have an account? Login</string>
+    <string name="logout_validation">Are sure you want to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="coba_lagi">Coba Lagi</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="galeri">Galeri</string>
+    <string name="photo">Next</string>
+    <string name="username">username</string>
+    <string name="lorem_ipsum">lorem_ipsum jdsjd snfjdsnf nsj afdi dasdn sjd ndf jasfn kjsfb jksnf jsnfjks fsaj fkdsfs</string>
+    <string name="coming_soon">Coming Soon!!</string>
+    <string name="selamat_datang_di_aplikasi_batikin">selamat datang di aplikasi BatikIn</string>
+    <string name="jika_ingin_mengatahui_jenis_batik_anda_bisa_langsung_ke_fitur_camera">Jika ingin mengatahui jenis batik, anda dapat langsung ke fitur camera</string>
+    <string-array name="data_name">
+        <item>ARTIKEL</item>
+        <item>QUIZ</item>
+        <item>PEMBUATAN BATIK</item>
+        <item>BATIK NUSANTARA</item>
+    </string-array>
+    <string-array name="data_detail">
+        <item>clik for more...</item>
+        <item>clik for more...</item>
+        <item>clik for more...</item>
+        <item>clik for more...</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>hdsjfh sjsnfsj df ajksnda jsndfak j sjsakj kjsasj d ajbdakjs djsbc akjs kjsbd kjsdb hd akj d kabd ak jajbsd ak jabsda kjb aksd j a ajsdas jakdns ask ajkdn a kansd</item>
+        <item>hdsjfh sjsnfsj df ajksnda jsndfak j sjsakj kjsasj d ajbdakjs djsbc akjs kjsbd kjsdb hd akj d kabd ak jajbsd ak jabsda kjb aksd j a ajsdas jakdns ask ajkdn a kansd</item>
+        <item>hdsjfh sjsnfsj df ajksnda jsndfak j sjsakj kjsasj d ajbdakjs djsbc akjs kjsbd kjsdb hd akj d kabd ak jajbsd ak jabsda kjb aksd j a ajsdas jakdns ask ajkdn a kans</item>
+        <item>hdsjfh sjsnfsj df ajksnda jsndfak j sjsakj kjsasj d ajbdakjs djsbc akjs kjsbd kjsdb hd akj d kabd ak jajbsd ak jabsda kjb aksd j a ajsdas jakdns ask ajkdn a kansd</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/artikel</item>
+        <item>@drawable/quiz</item>
+        <item>@drawable/produksi</item>
+        <item>@drawable/batik</item>
+    </integer-array>
+
+
+</resources>

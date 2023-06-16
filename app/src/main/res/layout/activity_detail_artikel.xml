@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".artikel.DetailArtikelActivity">
+
+        <ImageView
+            android:id="@+id/detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            tools:src="@drawable/ic_launcher_background"
+            tools:ignore="MissingConstraints" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg"
+            app:layout_constraintTop_toBottomOf="@id/detail_image">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/titleartikel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginEnd="12dp"
+                            android:layout_below="@id/detail_image"
+                            android:text="@string/username"
+                            android:textColor="@color/black"
+                            android:textSize="22sp"
+                            android:transitionName="username"
+                            android:justificationMode="inter_word"
+                            tools:ignore="NotSibling" />
+                        <TextView
+                            android:id="@+id/subtitleartikel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginBottom="30dp"
+                            android:layout_below="@id/titleartikel"
+                            android:text="@string/username"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:transitionName="username"
+                            android:justificationMode="inter_word"/>
+                        <TextView
+                            android:id="@+id/caption"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:layout_below="@id/subtitleartikel"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginEnd="12dp"
+                            android:text="@string/lorem_ipsum"
+                            android:textColor="@color/black"
+                            android:justificationMode="inter_word"/>
+                </RelativeLayout>
+        </ScrollView>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible" />
+
+        <ToggleButton
+            android:id="@+id/toggle_bookmark"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/bookmark_toggle"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
